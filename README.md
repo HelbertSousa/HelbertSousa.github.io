@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 
 <head>
@@ -128,5 +128,3 @@
 
     <script src="../js/mainHell.js"></script>
 </body>
-
-</html>
