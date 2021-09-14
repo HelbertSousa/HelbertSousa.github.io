@@ -1,3 +1,132 @@
-# HelbertSousa.github.io
+<!DOCTYPE html>
+<html lang="pt-br">
 
--- Criando um site pessoal para a disciplina de Programação WEB
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleHell.css">
+    <title>Meu Site</title>
+</head>
+
+<body>
+    <main class="estrutura">
+        <header class="header">
+            <a href="#" class="logo"><img src="../img/H_bitdev.png" alt="Hellbit Logo" /></a>
+            <nav>
+                <ul>
+                    <li><a href="#idprofile">Sobre</a></li>
+                    <li><a href="#Hobbie">Hobbies</a></li>
+                    <li><a href="#p1">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+
+            <div class="titulo">
+                <h1>Helbert Developer</h1>
+                <span>Hellbit-Dev</span>
+            </div>
+            <figure>
+                <img class=scaled src="../img/helty.jpg" alt="profilePhoto">
+            </figure>
+
+            <article class="profile" id="idprofile">
+                <p>
+                    Me chamo <strong>Helbert Sousa</strong> sou estudante do curso
+                    de Ciência da Computação na Universidade Federal de Alfenas e também estou cursando
+                    Técnico em Desenvolvimento de Sistemas para complementar meu aprendizado.
+                </p>
+            </article>
+
+
+
+            <blockquote class="citacao col-wide" data-anime="left">
+                <p>
+                    Sem a negação completa do querer, não há salvação verdadeira,
+                    libertação efetiva da vida e da dor”
+                </p>
+            </blockquote>
+
+            <ul class="atributos" data-anime="left">
+                <li>Aprendizado Recente:</li>
+                <li>Delphi</li>
+                <li>Java</li>
+                <li>C Sharp</li>
+                <li>Delphi</li>
+                <li>C language</li>
+            </ul>
+
+            <div class="informacoes" data-anime="right">
+                <p>
+                    Nenhuma vontade me atiça mais que o desejo de conhecer, reconhecer e entender.<br>
+                    Essa vontade perpaça pelo cansaço, a falta de tempo, a dificuldade.<br>
+                    O que eu sei é que eu encontro na tecnologia a minha real escolha e por ai eu sigo
+                    aprendendo e desenvolvendo.
+                </p>
+                <p>
+                    Mas por mais que minha vontade esteja ali, aqui e florescendo, acredito que
+                    devo me desvincular de tal sentimento, invocando mais uma vez Schopps:
+                </p>
+
+            </div>
+
+            <blockquote class="citacao col-wide" data-anime="left">
+                <p>
+                    “o desejo, por sua natureza, é dor: sua realização traz rapidamente a saciedade;
+                    a posse mata todo o encanto; o desejo ou a necessidade de novo
+                    se apresentam sob nova forma: senão, é o nada, é o vazio...”
+                </p>
+            </blockquote>
+
+            <ul class="atributos" data-anime="left">
+                <li>A Leitura e a Filosofia</li>
+                <li>Deus está morto, Nietzsche?</li>
+                <li>Controle sua vontade, Schopenhauer. </li>
+                <li>Não foi só a maçã, Newton.</li>
+                <li>Os outros podem fazer o mesmo com você, Kant?</li>
+                <li>E Socrates, vai nos ensinar a falar?</li>
+                <li>Seja a vontade de potência</li>
+                <li>Se prepare na Parresia de ser, Foucault</li>
+                <li>42!</li>
+
+            </ul>
+
+            <div class="informacoes" id="Hobbie" data-anime="top">
+                <h2>Hobbies</h2>
+                <p>
+                    Sou um estudante assiduo de disciplinas e assuntos relacionados a tecnologia, ciência, conhecimento,
+                    psicologia,
+                    em meu tempo livre além de estar em busca de aprendizado constante de tecnologias computáveis,
+                    também me dedico ao aprendizado da <strong>Filosofia</strong>, meu ramo de leitura se dedica ao
+                    conhecimento dos Filosofos Pessimistas, cito alguns como Arthur Schopenhauer,
+                    Friedrich Nietzsche, Emil Cioran e outros.
+                </p>
+                <p>
+                    Gosto dos Filosofos da Ética, como Immanuel Kant, Friedrich Hegel, além das boas contribuições
+                    feitas pelos estoicos
+                    nesse ramo, entre outros, sem esquecer, é claro, de Aristoteles que trabalhou diversos ramos da
+                    filosofia em seus escritos.
+                </p>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <p id="p1">Hellbit -- Isso é um pequeno desenvolvimento de teste --
+            <br/>Você está preparado para o "Eterno Retorno"?
+            <br/>Contato: Passando o tempo sendo a junção de "poeira das estrelas". Me encontre no universo.</p>
+        </footer>
+
+    </main>
+
+    <script src="../js/mainHell.js"></script>
+</body>
+
+</html>
